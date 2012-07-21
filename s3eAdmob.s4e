@@ -1,0 +1,45 @@
+callbacks
+
+include:
+#include <s3eTypes.h>
+
+enum s3eAdmobCallback
+{
+	S3E_ADMOB_CALLBACK_AD_LOAD,
+	S3E_ADMOB_CALLBACK_AD_FAIL,
+	S3E_ADMOB_CALLBACK_AD_WILL_PRESENT_SCREEN,
+	S3E_ADMOB_CALLBACK_AD_DID_DISMISS_SCREEN,
+	S3E_ADMOB_CALLBACK_INTERSTITIAL_BEGIN,
+	S3E_ADMOB_CALLBACK_INTERSTITIAL_END,
+	S3E_ADMOB_CALLBACK_MAX
+};
+
+typedef enum s3eAdmob_AdSize
+{
+
+    Admob_kGADAdSizeBanner  = 1,
+    Admob_kGADAdSizeMediumRectangle = 2,
+    Admob_kGADAdSizeFullBanner  = 3,
+    Admob_kGADAdSizeLeaderBoard  = 4,
+	Admob_kGADAdSizeSkyscraper = 5,
+	Admob_kGADAdSizeInterstitial = 6,
+
+} s3eAdmob_AdSize;
+
+typedef enum s3eAdmob_Orientation
+{
+    Admob_kGADOrientationPortrait  = 0,
+    Admob_kGADOrientationLandscape = 1,
+    Admob_kGADOrientationPortraitDown  = 2,
+    Admob_kGADOrientationLandscapeDown  = 3,
+} s3eAdmob_Orientation;
+
+functions:
+s3eResult s3eAdmobStart(const char* pub_id, int ad_type, int orientation, int x, int y) S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobResize(int ad_type) S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobShow() S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobRefresh() S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobHide() S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobMove(int orientation, int x, int y) S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobShowInterstitial(const char* med_id) S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdmobShowSplash(const char* med_id) S3E_RESULT_ERROR run_on_os_thread

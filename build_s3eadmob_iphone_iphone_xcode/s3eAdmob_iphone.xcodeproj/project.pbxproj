@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0000000000000000000006a /* s3eAdmob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000006b /* s3eAdmob.cpp */; };
+		A0000000000000000000007b /* s3eAdmob_platform.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000007c /* s3eAdmob_platform.mm */; };
+		A0000000000000000000007d /* s3eAdmob_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000007e /* s3eAdmob_register.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0000000000000000000000c /* ADFBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADFBannerView.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/ADFBannerView.h; sourceTree = "<absolute>"; };
+		B00000000000000000000015 /* ADFConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADFConstants.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/ADFConstants.h; sourceTree = "<absolute>"; };
+		B00000000000000000000017 /* ADFInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADFInterstitial.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/ADFInterstitial.h; sourceTree = "<absolute>"; };
+		B00000000000000000000019 /* ADFRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADFRequest.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/ADFRequest.h; sourceTree = "<absolute>"; };
+		B0000000000000000000001b /* Adfonic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Adfonic.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/Adfonic.h; sourceTree = "<absolute>"; };
+		B0000000000000000000001d /* AirplayVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AirplayVersion.h; path = /Developer/Marmalade/5.2/s3e/h/AirplayVersion.h; sourceTree = "<absolute>"; };
+		B00000000000000000000021 /* GADAdMobExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADAdMobExtras.h; sourceTree = "<absolute>"; };
+		B00000000000000000000023 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADAdNetworkExtras.h; sourceTree = "<absolute>"; };
+		B00000000000000000000025 /* GADAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADAdSize.h; sourceTree = "<absolute>"; };
+		B00000000000000000000027 /* GADBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADBannerView.h; sourceTree = "<absolute>"; };
+		B00000000000000000000029 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADBannerViewDelegate.h; sourceTree = "<absolute>"; };
+		B0000000000000000000002b /* GADCustomEventBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBanner.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/GADCustomEventBanner.h; sourceTree = "<absolute>"; };
+		B0000000000000000000002e /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBannerDelegate.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/GADCustomEventBannerDelegate.h; sourceTree = "<absolute>"; };
+		B00000000000000000000030 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADCustomEventExtras.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/GADCustomEventExtras.h; sourceTree = "<absolute>"; };
+		B00000000000000000000032 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitial.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/GADCustomEventInterstitial.h; sourceTree = "<absolute>"; };
+		B00000000000000000000034 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitialDelegate.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/GADCustomEventInterstitialDelegate.h; sourceTree = "<absolute>"; };
+		B00000000000000000000036 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADCustomEventRequest.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/GADCustomEventRequest.h; sourceTree = "<absolute>"; };
+		B00000000000000000000038 /* GADInMobiExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADInMobiExtras.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/libAdapterInMobi/GADInMobiExtras.h; sourceTree = "<absolute>"; };
+		B0000000000000000000003c /* GADInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADInterstitial.h; sourceTree = "<absolute>"; };
+		B0000000000000000000003e /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADInterstitialDelegate.h; sourceTree = "<absolute>"; };
+		B00000000000000000000040 /* GADRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADRequest.h; sourceTree = "<absolute>"; };
+		B00000000000000000000042 /* GADRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/GADRequestError.h; sourceTree = "<absolute>"; };
+		B00000000000000000000044 /* IMAdDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMAdDelegate.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMAdDelegate.h; sourceTree = "<absolute>"; };
+		B00000000000000000000046 /* IMAdError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMAdError.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMAdError.h; sourceTree = "<absolute>"; };
+		B00000000000000000000048 /* IMAdInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMAdInterstitial.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMAdInterstitial.h; sourceTree = "<absolute>"; };
+		B0000000000000000000004a /* IMAdInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMAdInterstitialDelegate.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMAdInterstitialDelegate.h; sourceTree = "<absolute>"; };
+		B0000000000000000000004c /* IMAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMAdRequest.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMAdRequest.h; sourceTree = "<absolute>"; };
+		B0000000000000000000004e /* IMAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMAdView.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMAdView.h; sourceTree = "<absolute>"; };
+		B00000000000000000000050 /* IMSDKUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMSDKUtil.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/IMSDKUtil.h; sourceTree = "<absolute>"; };
+		B00000000000000000000052 /* JTAdWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JTAdWidget.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Jumptap/JTAdWidget.h; sourceTree = "<absolute>"; };
+		B00000000000000000000055 /* JumpTapAppReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JumpTapAppReport.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Jumptap/JumpTapAppReport.h; sourceTree = "<absolute>"; };
+		B00000000000000000000057 /* MMAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMAdView.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MMSDK/MMAdView.h; sourceTree = "<absolute>"; };
+		B0000000000000000000005a /* MarmaladeVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MarmaladeVersion.h; path = /Developer/Marmalade/5.2/s3e/h/MarmaladeVersion.h; sourceTree = "<absolute>"; };
+		B0000000000000000000005c /* MobFox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MobFox.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/MobFox.h; sourceTree = "<absolute>"; };
+		B0000000000000000000005f /* MobFoxBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MobFoxBannerView.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/MobFoxBannerView.h; sourceTree = "<absolute>"; };
+		B00000000000000000000061 /* MobFoxVideoInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MobFoxVideoInterstitialViewController.h; path = /Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/MobFoxVideoInterstitialViewController.h; sourceTree = "<absolute>"; };
+		B00000000000000000000063 /* edk.mkf */ = {isa = PBXFileReference; lastKnownFileType = text; name = edk.mkf; path = /Developer/Marmalade/5.2/s3e/edk/edk.mkf; sourceTree = "<absolute>"; };
+		B00000000000000000000065 /* make_extension.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = make_extension.py; path = /Developer/Marmalade/5.2/extensions/builder/make_extension.py; sourceTree = "<absolute>"; };
+		B00000000000000000000067 /* s3e.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3e.h; path = /Developer/Marmalade/5.2/s3e/h/s3e.h; sourceTree = "<absolute>"; };
+		B00000000000000000000069 /* s3eAccelerometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eAccelerometer.h; path = /Developer/Marmalade/5.2/s3e/h/s3eAccelerometer.h; sourceTree = "<absolute>"; };
+		B0000000000000000000006b /* s3eAdmob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = s3eAdmob.cpp; path = ../source/generic/s3eAdmob.cpp; sourceTree = SOURCE_ROOT; };
+		B0000000000000000000006e /* s3eAdmob.defines.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = s3eAdmob.defines.txt; path = /Users/sabkaraja/s3ext/s3eAdmob/interface/s3eAdmob.defines.txt; sourceTree = "<absolute>"; };
+		B00000000000000000000071 /* s3eAdmob.s4e */ = {isa = PBXFileReference; lastKnownFileType = text; name = s3eAdmob.s4e; path = /Users/sabkaraja/s3ext/s3eAdmob/s3eAdmob.s4e; sourceTree = "<absolute>"; };
+		B00000000000000000000073 /* s3eAdmob_autodefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eAdmob_autodefs.h; path = /Users/sabkaraja/s3ext/s3eAdmob/source/h/s3eAdmob_autodefs.h; sourceTree = "<absolute>"; };
+		B00000000000000000000076 /* s3eAdmob_build.mkf */ = {isa = PBXFileReference; lastKnownFileType = text; name = s3eAdmob_build.mkf; path = /Users/sabkaraja/s3ext/s3eAdmob/s3eAdmob_build.mkf; sourceTree = "<absolute>"; };
+		B00000000000000000000078 /* s3eAdmob_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eAdmob_internal.h; path = /Users/sabkaraja/s3ext/s3eAdmob/source/h/s3eAdmob_internal.h; sourceTree = "<absolute>"; };
+		B0000000000000000000007a /* s3eAdmob_iphone.mkb */ = {isa = PBXFileReference; lastKnownFileType = text; name = s3eAdmob_iphone.mkb; path = /Users/sabkaraja/s3ext/s3eAdmob/s3eAdmob_iphone.mkb; sourceTree = "<absolute>"; };
+		B0000000000000000000007c /* s3eAdmob_platform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; name = s3eAdmob_platform.mm; path = ../source/iphone/s3eAdmob_platform.mm; sourceTree = SOURCE_ROOT; };
+		B0000000000000000000007e /* s3eAdmob_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = s3eAdmob_register.cpp; path = ../source/generic/s3eAdmob_register.cpp; sourceTree = SOURCE_ROOT; };
+		B00000000000000000000080 /* s3eAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eAudio.h; path = /Developer/Marmalade/5.2/s3e/h/s3eAudio.h; sourceTree = "<absolute>"; };
+		B00000000000000000000082 /* s3eCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eCamera.h; path = /Developer/Marmalade/5.2/s3e/h/s3eCamera.h; sourceTree = "<absolute>"; };
+		B00000000000000000000084 /* s3eClipboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eClipboard.h; path = /Developer/Marmalade/5.2/s3e/h/s3eClipboard.h; sourceTree = "<absolute>"; };
+		B00000000000000000000086 /* s3eCompass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eCompass.h; path = /Developer/Marmalade/5.2/s3e/h/s3eCompass.h; sourceTree = "<absolute>"; };
+		B00000000000000000000088 /* s3eCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eCompression.h; path = /Developer/Marmalade/5.2/s3e/h/s3eCompression.h; sourceTree = "<absolute>"; };
+		B0000000000000000000008a /* s3eConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eConfig.h; path = /Developer/Marmalade/5.2/s3e/h/s3eConfig.h; sourceTree = "<absolute>"; };
+		B0000000000000000000008c /* s3eContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eContacts.h; path = /Developer/Marmalade/5.2/s3e/h/s3eContacts.h; sourceTree = "<absolute>"; };
+		B0000000000000000000008e /* s3eCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eCrypto.h; path = /Developer/Marmalade/5.2/s3e/h/s3eCrypto.h; sourceTree = "<absolute>"; };
+		B00000000000000000000090 /* s3eDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eDebug.h; path = /Developer/Marmalade/5.2/s3e/h/s3eDebug.h; sourceTree = "<absolute>"; };
+		B00000000000000000000092 /* s3eDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eDevice.h; path = /Developer/Marmalade/5.2/s3e/h/s3eDevice.h; sourceTree = "<absolute>"; };
+		B00000000000000000000094 /* s3eEdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eEdk.h; path = /Developer/Marmalade/5.2/s3e/edk/h/s3eEdk.h; sourceTree = "<absolute>"; };
+		B00000000000000000000097 /* s3eEdkError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eEdkError.h; path = /Developer/Marmalade/5.2/s3e/edk/h/s3eEdkError.h; sourceTree = "<absolute>"; };
+		B00000000000000000000099 /* s3eEdk_android.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eEdk_android.h; path = /Developer/Marmalade/5.2/s3e/edk/h/s3eEdk_android.h; sourceTree = "<absolute>"; };
+		B0000000000000000000009b /* s3eEdk_iphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eEdk_iphone.h; path = /Developer/Marmalade/5.2/s3e/edk/h/s3eEdk_iphone.h; sourceTree = "<absolute>"; };
+		B0000000000000000000009d /* s3eEdk_windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eEdk_windows.h; path = /Developer/Marmalade/5.2/s3e/edk/h/s3eEdk_windows.h; sourceTree = "<absolute>"; };
+		B0000000000000000000009f /* s3eExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eExt.h; path = /Developer/Marmalade/5.2/s3e/h/s3eExt.h; sourceTree = "<absolute>"; };
+		B000000000000000000000a1 /* s3eFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eFile.h; path = /Developer/Marmalade/5.2/s3e/h/s3eFile.h; sourceTree = "<absolute>"; };
+		B000000000000000000000a3 /* s3eGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eGL.h; path = /Developer/Marmalade/5.2/s3e/h/s3eGL.h; sourceTree = "<absolute>"; };
+		B000000000000000000000a5 /* s3eHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eHash.h; path = /Developer/Marmalade/5.2/s3e/h/s3eHash.h; sourceTree = "<absolute>"; };
+		B000000000000000000000a7 /* s3eKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eKeyboard.h; path = /Developer/Marmalade/5.2/s3e/h/s3eKeyboard.h; sourceTree = "<absolute>"; };
+		B000000000000000000000a9 /* s3eLicense.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eLicense.h; path = /Developer/Marmalade/5.2/s3e/h/s3eLicense.h; sourceTree = "<absolute>"; };
+		B000000000000000000000ab /* s3eLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eLocation.h; path = /Developer/Marmalade/5.2/s3e/h/s3eLocation.h; sourceTree = "<absolute>"; };
+		B000000000000000000000ad /* s3eMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eMemory.h; path = /Developer/Marmalade/5.2/s3e/h/s3eMemory.h; sourceTree = "<absolute>"; };
+		B000000000000000000000af /* s3ePointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3ePointer.h; path = /Developer/Marmalade/5.2/s3e/h/s3ePointer.h; sourceTree = "<absolute>"; };
+		B000000000000000000000b1 /* s3eSecureStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eSecureStorage.h; path = /Developer/Marmalade/5.2/s3e/h/s3eSecureStorage.h; sourceTree = "<absolute>"; };
+		B000000000000000000000b3 /* s3eSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eSocket.h; path = /Developer/Marmalade/5.2/s3e/h/s3eSocket.h; sourceTree = "<absolute>"; };
+		B000000000000000000000b5 /* s3eSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eSound.h; path = /Developer/Marmalade/5.2/s3e/h/s3eSound.h; sourceTree = "<absolute>"; };
+		B000000000000000000000b7 /* s3eSoundRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eSoundRecord.h; path = /Developer/Marmalade/5.2/s3e/h/s3eSoundRecord.h; sourceTree = "<absolute>"; };
+		B000000000000000000000b9 /* s3eSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eSurface.h; path = /Developer/Marmalade/5.2/s3e/h/s3eSurface.h; sourceTree = "<absolute>"; };
+		B000000000000000000000bb /* s3eThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eThread.h; path = /Developer/Marmalade/5.2/s3e/h/s3eThread.h; sourceTree = "<absolute>"; };
+		B000000000000000000000bd /* s3eTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eTimer.h; path = /Developer/Marmalade/5.2/s3e/h/s3eTimer.h; sourceTree = "<absolute>"; };
+		B000000000000000000000bf /* s3eTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eTypes.h; path = /Developer/Marmalade/5.2/s3e/h/s3eTypes.h; sourceTree = "<absolute>"; };
+		B000000000000000000000c1 /* s3eVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eVersion.h; path = /Developer/Marmalade/5.2/s3e/h/s3eVersion.h; sourceTree = "<absolute>"; };
+		B000000000000000000000c3 /* s3eVibra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eVibra.h; path = /Developer/Marmalade/5.2/s3e/h/s3eVibra.h; sourceTree = "<absolute>"; };
+		B000000000000000000000c5 /* s3eVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3eVideo.h; path = /Developer/Marmalade/5.2/s3e/h/s3eVideo.h; sourceTree = "<absolute>"; };
+		ref_s3eAdmob_iphone_a /* libs3eAdmob_iphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libs3eAdmob_iphone.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		frameworksobject /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000007 /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008 /* Resources */,
+				B00000000000000000000009 /* Frameworks */,
+				B0000000000000000000000a /* Products */,
+				C0000000000000000000000d /* Extensions */,
+				C0000000000000000000001e /* edk */,
+				B0000000000000000000007a /* s3eAdmob_iphone.mkb */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0000000000000000000000a /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ref_s3eAdmob_iphone_a /* libs3eAdmob_iphone.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000000d /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000e /* s3eAdmob */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000000e /* s3eAdmob */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000f /* GoogleAdMobAdsSDKiOS */,
+				B00000000000000000000065 /* make_extension.py */,
+				C0000000000000000000006c /* source */,
+				C0000000000000000000006f /* docs */,
+				B00000000000000000000071 /* s3eAdmob.s4e */,
+				C00000000000000000000074 /* h */,
+				B00000000000000000000076 /* s3eAdmob_build.mkf */,
+			);
+			name = s3eAdmob;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000000f /* GoogleAdMobAdsSDKiOS */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000010 /* networks */,
+				B00000000000000000000021 /* GADAdMobExtras.h */,
+				B00000000000000000000023 /* GADAdNetworkExtras.h */,
+				B00000000000000000000025 /* GADAdSize.h */,
+				B00000000000000000000027 /* GADBannerView.h */,
+				B00000000000000000000029 /* GADBannerViewDelegate.h */,
+				C0000000000000000000002c /* Mediation */,
+				B0000000000000000000003c /* GADInterstitial.h */,
+				B0000000000000000000003e /* GADInterstitialDelegate.h */,
+				B00000000000000000000040 /* GADRequest.h */,
+				B00000000000000000000042 /* GADRequestError.h */,
+			);
+			name = GoogleAdMobAdsSDKiOS;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000010 /* networks */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000011 /* Adfonic */,
+				C00000000000000000000039 /* inMobi */,
+				C00000000000000000000053 /* Jumptap */,
+				C00000000000000000000058 /* MMSDK */,
+				C0000000000000000000005d /* MobFox */,
+			);
+			name = networks;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000011 /* Adfonic */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000012 /* AdfonicSDK */,
+			);
+			name = Adfonic;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000012 /* AdfonicSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000013 /* Headers */,
+			);
+			name = AdfonicSDK;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000013 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000c /* ADFBannerView.h */,
+				B00000000000000000000015 /* ADFConstants.h */,
+				B00000000000000000000017 /* ADFInterstitial.h */,
+				B00000000000000000000019 /* ADFRequest.h */,
+				B0000000000000000000001b /* Adfonic.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000001e /* edk */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000001f /* S3E API */,
+				B00000000000000000000063 /* edk.mkf */,
+				C00000000000000000000095 /* h */,
+			);
+			name = edk;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000001f /* S3E API */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000001d /* AirplayVersion.h */,
+				B0000000000000000000005a /* MarmaladeVersion.h */,
+				B00000000000000000000067 /* s3e.h */,
+				B00000000000000000000069 /* s3eAccelerometer.h */,
+				B00000000000000000000080 /* s3eAudio.h */,
+				B00000000000000000000082 /* s3eCamera.h */,
+				B00000000000000000000084 /* s3eClipboard.h */,
+				B00000000000000000000086 /* s3eCompass.h */,
+				B00000000000000000000088 /* s3eCompression.h */,
+				B0000000000000000000008a /* s3eConfig.h */,
+				B0000000000000000000008c /* s3eContacts.h */,
+				B0000000000000000000008e /* s3eCrypto.h */,
+				B00000000000000000000090 /* s3eDebug.h */,
+				B00000000000000000000092 /* s3eDevice.h */,
+				B0000000000000000000009f /* s3eExt.h */,
+				B000000000000000000000a1 /* s3eFile.h */,
+				B000000000000000000000a3 /* s3eGL.h */,
+				B000000000000000000000a5 /* s3eHash.h */,
+				B000000000000000000000a7 /* s3eKeyboard.h */,
+				B000000000000000000000a9 /* s3eLicense.h */,
+				B000000000000000000000ab /* s3eLocation.h */,
+				B000000000000000000000ad /* s3eMemory.h */,
+				B000000000000000000000af /* s3ePointer.h */,
+				B000000000000000000000b1 /* s3eSecureStorage.h */,
+				B000000000000000000000b3 /* s3eSocket.h */,
+				B000000000000000000000b5 /* s3eSound.h */,
+				B000000000000000000000b7 /* s3eSoundRecord.h */,
+				B000000000000000000000b9 /* s3eSurface.h */,
+				B000000000000000000000bb /* s3eThread.h */,
+				B000000000000000000000bd /* s3eTimer.h */,
+				B000000000000000000000bf /* s3eTypes.h */,
+				B000000000000000000000c1 /* s3eVersion.h */,
+				B000000000000000000000c3 /* s3eVibra.h */,
+				B000000000000000000000c5 /* s3eVideo.h */,
+			);
+			name = "S3E API";
+			sourceTree = "<group>";
+		};
+		C0000000000000000000002c /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000002b /* GADCustomEventBanner.h */,
+				B0000000000000000000002e /* GADCustomEventBannerDelegate.h */,
+				B00000000000000000000030 /* GADCustomEventExtras.h */,
+				B00000000000000000000032 /* GADCustomEventInterstitial.h */,
+				B00000000000000000000034 /* GADCustomEventInterstitialDelegate.h */,
+				B00000000000000000000036 /* GADCustomEventRequest.h */,
+			);
+			name = Mediation;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000039 /* inMobi */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000003a /* libAdapterInMobi */,
+				B00000000000000000000044 /* IMAdDelegate.h */,
+				B00000000000000000000046 /* IMAdError.h */,
+				B00000000000000000000048 /* IMAdInterstitial.h */,
+				B0000000000000000000004a /* IMAdInterstitialDelegate.h */,
+				B0000000000000000000004c /* IMAdRequest.h */,
+				B0000000000000000000004e /* IMAdView.h */,
+				B00000000000000000000050 /* IMSDKUtil.h */,
+			);
+			name = inMobi;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000003a /* libAdapterInMobi */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000038 /* GADInMobiExtras.h */,
+			);
+			name = libAdapterInMobi;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000053 /* Jumptap */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000052 /* JTAdWidget.h */,
+				B00000000000000000000055 /* JumpTapAppReport.h */,
+			);
+			name = Jumptap;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000058 /* MMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000057 /* MMAdView.h */,
+			);
+			name = MMSDK;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000005d /* MobFox */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000005c /* MobFox.h */,
+				B0000000000000000000005f /* MobFoxBannerView.h */,
+				B00000000000000000000061 /* MobFoxVideoInterstitialViewController.h */,
+			);
+			name = MobFox;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000006c /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000006b /* s3eAdmob.cpp */,
+				B0000000000000000000007c /* s3eAdmob_platform.mm */,
+				B0000000000000000000007e /* s3eAdmob_register.cpp */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000006f /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000006e /* s3eAdmob.defines.txt */,
+			);
+			name = docs;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000074 /* h */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000073 /* s3eAdmob_autodefs.h */,
+				B00000000000000000000078 /* s3eAdmob_internal.h */,
+			);
+			name = h;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000095 /* h */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000094 /* s3eEdk.h */,
+				B00000000000000000000097 /* s3eEdkError.h */,
+				B00000000000000000000099 /* s3eEdk_android.h */,
+				B0000000000000000000009b /* s3eEdk_iphone.h */,
+				B0000000000000000000009d /* s3eEdk_windows.h */,
+			);
+			name = h;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69000000000000000000000A /* s3eAdmob_iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = buildconfiglisttarget /* Build configuration list for PBXNativeTarget "s3eAdmob_iphone" */;
+			buildPhases = (
+				resourcesobject /* Resources */,
+				sourcesobject /* Sources */,
+				frameworksobject /* Frameworks */,
+				shell_script_object0 /* Copy Target to Final Destination */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = s3eAdmob_iphone;
+			productName = s3eAdmob_iphone;
+			productReference = ref_s3eAdmob_iphone_a /* libs3eAdmob_iphone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = buildconfiglistproject /* Build configuration list for PBXProject "s3eAdmob_iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A00000000000000000000007 /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69000000000000000000000A /* s3eAdmob_iphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		resourcesobject /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		shell_script_object0 /* Copy Target to Final Destination */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Target to Final Destination";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nmkdir -p /Users/sabkaraja/s3ext/s3eAdmob/lib/iphone\n\nset -e\nset -x\n\nif [ $CONFIGURATION = 'Release' ]; then\n    TARGET=/Users/sabkaraja/s3ext/s3eAdmob/lib/iphone/libs3eAdmob.a\nelse\n    TARGET=/Users/sabkaraja/s3ext/s3eAdmob/lib/iphone/libs3eAdmob_d.a\nfi\n\ncp $BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH $TARGET\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		sourcesobject /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000006a /* s3eAdmob.cpp in Sources */,
+				A0000000000000000000007b /* s3eAdmob_platform.mm in Sources */,
+				A0000000000000000000007d /* s3eAdmob_register.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv6;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = s3eAdmob_iphone;
+			};
+			name = Debug;
+		};
+		C00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv6;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = s3eAdmob_iphone;
+			};
+			name = Release;
+		};
+		T00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/sabkaraja/s3ext/s3eAdmob/source/h/,
+					/Users/sabkaraja/s3ext/s3eAdmob/h/,
+					/Developer/Marmalade/5.2/s3e/edk/h/,
+					/Developer/Marmalade/5.2/s3e/h/,
+					/Developer/Marmalade/5.2/s3e/h/ext/,
+					/Developer/Marmalade/5.2/modules/iwutil/h/,
+					/Developer/Marmalade/5.2/modules/iwcore/h/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/libAdapterAdfonic/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/BrightRoll/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/iAds/LibAdapterIAd/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Jumptap/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Jumptap/libAdapterJumptap/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MMSDK/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MMSDK/LibAdapterMillennial/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/libAdapterInMobi/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/libAdapterSDKMobFox,
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-fsigned-char",
+					"-fno-strict-aliasing",
+					"-Wall",
+					"-fomit-frame-pointer",
+					"-Wno-unused",
+					"-Wno-parentheses",
+					"-pipe",
+					"-g",
+					"-O0",
+					"-include",
+					temp_defines_debug.h,
+					"-include",
+					temp_defines_debug.h,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fno-exceptions",
+				);
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		T00000000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/sabkaraja/s3ext/s3eAdmob/source/h/,
+					/Users/sabkaraja/s3ext/s3eAdmob/h/,
+					/Developer/Marmalade/5.2/s3e/edk/h/,
+					/Developer/Marmalade/5.2/s3e/h/,
+					/Developer/Marmalade/5.2/s3e/h/ext/,
+					/Developer/Marmalade/5.2/modules/iwutil/h/,
+					/Developer/Marmalade/5.2/modules/iwcore/h/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/Mediation/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/AdfonicSDK/Headers/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Adfonic/libAdapterAdfonic/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/BrightRoll/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/iAds/LibAdapterIAd/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Jumptap/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/Jumptap/libAdapterJumptap/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MMSDK/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MMSDK/LibAdapterMillennial/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/inMobi/libAdapterInMobi/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/,
+					/Users/sabkaraja/s3ext/s3eAdmob/GoogleAdMobAdsSDKiOS/networks/MobFox/libAdapterSDKMobFox,
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-fsigned-char",
+					"-fno-strict-aliasing",
+					"-Wall",
+					"-fomit-frame-pointer",
+					"-Wno-unused",
+					"-Wno-parentheses",
+					"-pipe",
+					"-O3",
+					"-include",
+					temp_defines_release.h,
+					"-include",
+					temp_defines_release.h,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fno-exceptions",
+				);
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		buildconfiglistproject /* Build configuration list for PBXProject "s3eAdmob_iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T00000000000000000000003 /* Debug */,
+				T00000000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		buildconfiglisttarget /* Build configuration list for PBXNativeTarget "s3eAdmob_iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000000000000000000002 /* Debug */,
+				C00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000006 /* Project object */;
+}

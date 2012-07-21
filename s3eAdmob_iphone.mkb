@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the s3eAdmob extension on iphone
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/libs3eAdmob.a"
+    output-name-debug="lib/iphone/libs3eAdmob_d.a"
+}
+define S3E_BUILD_EXT
+
+subproject s3eAdmob_build

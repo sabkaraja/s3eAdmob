@@ -1,0 +1,40 @@
+// !$*UTF8*$!
+{
+	A00000000000000000000006 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 222D33CE0E9B5E6F00EC09C0 /* Basic */;
+		codeSenseManager = 222D34100E9B609400EC09C0 /* Code sense */; 
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					295.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 245063822;
+			PBXWorkspaceStateSaveDate = 245063822;
+		};
+		sourceControlManager = 222D340F0E9B609400EC09C0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	222D340F0E9B609400EC09C0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	222D34100E9B609400EC09C0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
